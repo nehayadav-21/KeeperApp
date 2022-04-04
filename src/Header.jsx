@@ -5,7 +5,7 @@ const Header=() =>{
 return(
     <>
         <div className="header">
-         <i class="fas fa-lightbulb"/>
+         <i className="fas fa-lightbulb"/>
          <h1>Keep Notes</h1>
         </div>
     </>

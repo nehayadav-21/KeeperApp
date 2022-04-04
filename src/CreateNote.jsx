@@ -17,8 +17,10 @@ const CreateNote=(props) =>{
     const InputEvent= (event) =>{
 
         const {name,value}=event.target;
+        
 
         setNote((prevData) =>{
+            
             return{
                 ...prevData,
                 [name]:value,
